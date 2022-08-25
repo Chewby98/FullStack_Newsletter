@@ -1,0 +1,98 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #fcf8e8;
+	font-family: "Dosis", sans-serif;
+}
+
+/* Sign Up Page */
+
+form img {
+	width: 80%;
+}
+
+h1 {
+	color: #94b49f;
+	text-transform: uppercase;
+	word-spacing: 5px;
+}
+
+.form-signin {
+	max-width: 350px;
+	padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+	z-index: 2;
+}
+
+.form-signin input:first-child {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form-signin input:last-child {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+input {
+	background-color: rgb(148, 180, 159, 0.5) !important;
+}
+
+button {
+	background-color: #df7861 !important;
+	border: none !important;
+}
+
+/* Success Page */
+
+main {
+	width: 100vw;
+}
+
+.success {
+	background-color: #fcf8e8 !important;
+	width: 50% !important;
+	margin: 0 auto !important;
+	color: #94b49f;
+	padding: 10% !important;
+}
+
+.success h2 {
+	margin-top: 50px !important;
+}
+
+/* Failure Page */
+
+main {
+	width: 100vw;
+}
+
+.failure {
+	background-color: #fcf8e8 !important;
+	width: 50% !important;
+	margin: 0 auto !important;
+	color: #6c757d !important;
+	padding: 6% !important;
+}
+
+.failure h2 {
+	margin-top: 50px !important;
+	margin-bottom: 50px !important;
+}
+
+.failure button {
+	background-color: rgb(223, 120, 97, 0.8) !important;
+	color: #6c757d !important;
+	font-size: 1.5rem !important;
+}
